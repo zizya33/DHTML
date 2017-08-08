@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<form id="line" name="Comment" action="javascript:show();" method="post" target="_blank" onsubmit="return validate_form ( );">
+        <ul id="list" name="li">
+<li><span class="text"  >1. Имя:   </span><br/>
+<li><INPUT name="field1" SIZE=20 autofocus tabindex="1" onkeydown="nextF(this)"><br/>
+<li><span class="text"><br/>2. Любимое животное:   </span><br/>
+<li><INPUT NAME="field2" SIZE=20 tabindex="2" onkeydown="nextF(this)"><br/><br/>
+<li><span class="text">3. Любимое блюдо:   </span><br/>
+<li><INPUT NAME="field3" SIZE=20 tabindex="3" onkeydown="nextF(this)"><br/><br/>
+<li><span class="text">4. Возраст:    </span><br/>
+<li><INPUT NAME="field4" SIZE=20 tabindex="4" onkeydown="nextF(this)"><br/><br/>
+<li><span class="text">Выберите цвет:</span><br/>
+    <li><SELECT NAME="Color" SIZE=1>
+        <option value="black">черный</option>
+        <OPTION VALUE="red">красный</option>
+        <OPTION VALUE ="blue">синий</option>
+        <OPTION VALUE ="yellow">желтый</option>
+        <OPTION VALUE ="green">зеленый</option>
+        <OPTION VALUE ="white">белый</option>
+    </SELECT><br/>
+        </ul>
+<button type="submit">Отправить</button>
+<button TYPE="reset">Очистить все</button>
+<button type="button" onclick="create()" >Вставить поле</button>
+</form>
+</body>
+</html>
+

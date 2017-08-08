@@ -1,0 +1,63 @@
+html, body {
+    height:100%;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+
+    background-image: url(resourse/fon.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+button{
+    background-color: cadetblue;
+    border-radius: 8px;
+    height: 45px;
+    width: 100px;
+    font-size: 12px;
+    font-family: Segoe Print;
+}
+
+button:hover{
+    background-color: dodgerblue;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    color: #0000FF;
+    /**font-size: 2em;
+    font-weight: 600;*/
+}
+
+.text {
+    font-family: Buxton Sketch;
+    font-size: 20px;
+    background-color: lightblue;
+    color: #0000FF;
+}
+
+input, select{
+    background-color: #FFFACD;
+    height: 20px;
+    width: 150px;
+    border-radius: 3px;
+    border: solid 2px #CDBE70;
+
+}
+
+table{
+    background-color: #FFFACD;
+    border: solid 4px #CDBE70;
+    height: 70px;
+    width: 350px;
+    text-align: center;
+    font-family: Buxton Sketch;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+tr, td{
+    border: solid 2px #CDBE70;
+}
